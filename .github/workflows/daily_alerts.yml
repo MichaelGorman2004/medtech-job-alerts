@@ -2,7 +2,10 @@ name: Job Alerts (Mon + Thu)
 
 on:
   schedule:
-    # 7:00 AM CT on Monday and Thursday = 13:00 UTC
+    # One-time first send: Fri Feb 20, 9 PM ET = Sat Feb 21, 02:00 UTC
+    # TODO: Remove this line after first run
+    - cron: '0 2 21 2 *'
+    # Regular schedule: 7:00 AM CT on Monday and Thursday = 13:00 UTC
     - cron: '0 13 * * 1,4'
   workflow_dispatch: # Manual trigger for testing
 
