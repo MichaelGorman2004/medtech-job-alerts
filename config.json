@@ -1,0 +1,30 @@
+{
+  "recipient_email": "Seancarr2022@gmail.com",
+  "search_terms": [
+    "entry level medical device sales",
+    "associate sales representative medical device",
+    "junior medical sales representative",
+    "associate clinical sales specialist",
+    "entry level surgical sales"
+  ],
+  "priority_metro": {
+    "name": "Chicago, IL",
+    "queries_per_run": 5
+  },
+  "secondary_metros": [
+    "Cleveland, OH",
+    "Greenville, SC",
+    "Columbus, OH",
+    "New York, NY",
+    "Dallas, TX",
+    "Austin, TX",
+    "Houston, TX",
+    "Florida",
+    "Boston, MA",
+    "Philadelphia, PA"
+  ],
+  "secondary_terms_per_metro": 2,
+  "max_results_per_query": 10,
+  "dedup_file": "seen_jobs.json",
+  "days_lookback": 7
+}
